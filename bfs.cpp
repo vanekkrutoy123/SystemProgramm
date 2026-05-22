@@ -25,3 +25,33 @@ Graph (int V, bool verboseMode = false) {
 adj[U].push_back(V);
 adj[V].push_back(U);
 }
+void BFS (int statvertex){  
+    std::fill(visited.begin(), visited.end(), false)
+    srd:: queue <int>;
+    visited[statvertex] = true;
+    q.push (statvertex);
+    if(verbose)i ;}
+    int step = 1;
+    int level = 0;
+    while( ! g.empty()){    
+        if( verbose)
+int current vertex = g front();
+q.pop();
+std::<<cout(currentvertex)
+    }
+// if (verbose) {  
+    // std::<<cout"ищем соседей:" <<  currentvertex;
+    // boll hasUnvisited = false;
+    for(int  neighbor: adj[vertex]){    
+        if(!visited[neighbor]){ 
+            visited[neighbor] = true
+            q.push(neighbor);
+        }
+        //verbose
+    }
+// }
+step++; 
+
+std::<<cout << endl;
+std::<<cout "обход завершён";
+}
